@@ -1,0 +1,49 @@
+
+/* Add Customer Table Styles */
+.form-box {
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.form-box h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.form-group {
+    margin-bottom: 12px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.form-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    padding: 6px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #0056b3;
+}
+.btn-secondary {
+    background: #6c757d;
+}
+.btn-secondary:hover {
+    background: #5a6268;
+}

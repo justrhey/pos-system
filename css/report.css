@@ -1,0 +1,90 @@
+
+.report-sectionn {
+  max-width: 800px;
+  margin: 2rem 0 2rem 1rem; /* top, right, bottom, left */
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bestseller-breakdown {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.bestseller-left {
+    flex: 1 1 400px;
+}
+
+.bestseller-right {
+    width: 300px;
+    max-width: 100%;
+}
+
+.bestseller-item {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bestseller-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.bestseller-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bestseller-name {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.bestseller-percent {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.bestseller-badge {
+    background: red;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: auto;
+}
+
+
+
+.bestseller-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+.bestseller-name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bestseller-percent {
+  margin-left: 10px;
+  white-space: nowrap;
+}

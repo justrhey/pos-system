@@ -1,0 +1,72 @@
+/* Category Table Styles */
+.cat-page {
+  padding: 20px;
+}
+
+.cat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cat-search-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cat-search-form input[type="text"] {
+  padding: 6px;
+  min-width: 200px;
+}
+
+.cat-btn {
+  padding: 6px 14px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cat-btn.add {
+  background-color: #2ecc71;
+}
+
+.cat-btn.danger {
+  background-color: #e74c3c;
+}
+
+.cat-btn.reset {
+  background-color: #7f8c8d;
+}
+
+.cat-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cat-table th, .cat-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.cat-table th a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.cat-table th a:hover {
+  text-decoration: underline;
+}
+
+.cat-table th a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+

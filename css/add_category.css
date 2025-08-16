@@ -1,0 +1,42 @@
+/* Add Category Table Styles */
+.cat-page {
+  padding: 20px;
+}
+
+.cat-form-group {
+  margin-bottom: 10px;
+}
+
+.cat-form-group input {
+  padding: 6px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.cat-btn {
+padding: 6px 14px;
+background-color: #3498db;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.cat-btn.danger {
+background-color: #e74c3c;
+text-decoration: none;
+padding: 6px 14px;
+display: inline-block;
+}
+
+.cat-message {
+margin: 10px 0;
+font-weight: bold;
+}
+
+.cat-message.success {
+color: green;
+}
+
+.cat-message.error {
+color: red;
+}

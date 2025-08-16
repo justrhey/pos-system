@@ -1,0 +1,103 @@
+html, body {
+height: 100%;
+margin: 0;
+}
+.user-wrapper {
+display: flex;
+flex-direction: column; 
+min-height: 100vh;
+}
+.main-area {
+flex: 1;
+display: flex;
+}
+.app-main {
+flex: 1;
+padding: 20px;
+}
+footer {
+text-align: center;
+padding: 10px;
+background: #eee;
+}
+
+/* User Page Styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons in action column */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn.danger {
+  background-color: #e74c3c;
+}
+
+.btn.danger:hover {
+  background-color: #c0392b;
+}
+
+.btn.active {
+  background-color: #2ecc71;
+}
+
+.btn.inactive {
+  background-color: #95a5a6;
+}
+
+/* Form & toolbar */
+.user-toolbar {
+  margin-bottom: 15px;
+}
+
+.filter-form input,
+.filter-form select {
+  padding: 6px 10px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.filter-form button,
+.filter-form .btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+

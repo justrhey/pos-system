@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298, #3b5998);
+}
+
+.main {
+  width: 350px;
+  height: 500px;
+  background: grey;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+
+#chk {
+  display: none;
+}
+
+label {
+  color: black;
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 60px auto;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+
+input {
+  width: 60%;
+  height: 40px;
+  background: #fff;
+  margin: 5px auto;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  display: block;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  margin:10px auto;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+button:hover{
+  background: black;
+}
+
+.login{
+  height: 390px;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: .8s ease-in-out;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.takezo-logo {
+  width: 360px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+#chk:checked ~ .login{
+  transform: translateY(-500px);
+}
+
+#chK:checked ~ .login label{
+  transform: scale(1);
+}
+
+#chk:checked ~ .signup label{
+  transform: scale(.6);
+}

@@ -1,0 +1,22 @@
+html, body {
+height: 100%;
+margin: 0;
+}
+.user-wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.main-area {
+flex: 1;
+display: flex;
+}
+.app-main {
+flex: 1;
+padding: 20px;
+}
+footer {
+text-align: center;
+padding: 10px;
+background: #eee;
+}
